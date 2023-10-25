@@ -19,6 +19,10 @@ public class Controller {
         return new Pato("Anatidae", true);
     }
 
+    public Ave crearUnAve() {
+        return new Ave("Raphus cucullatus");
+    }
+
     public String hacerVolarAPato(Pato p) {
         return p.volar();
     }

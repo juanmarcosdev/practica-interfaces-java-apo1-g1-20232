@@ -36,6 +36,7 @@ public class Executable {
         System.out.println(cont.hacerVolarAPato(cont.crearUnPato()));
         System.out.println(cont.hacerNadarAPato(cont.crearUnPato()));
         System.out.println(cont.emitirSonidoAve(cont.crearUnPato()));
+        System.out.println(cont.emitirSonidoAve(cont.crearUnAve()));
         System.out.println(cont.crearUnPato().getEspecie());
 
     }
